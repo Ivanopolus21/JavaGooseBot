@@ -39,7 +39,7 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "";
+        return "5882358020:AAHHlNgdzlq5OCYvlj8guh52E7bIAkKLJAk";
     }
 
     @Override
@@ -173,6 +173,19 @@ public class Main extends TelegramLongPollingBot {
                 sendApiMethodAsync(message);
             }
             //The last level
+            if (update.getCallbackQuery().getData().equals("level_4_task") && getLevel(chatId) == 4) {
+                //Increase level
+                setLevel(chatId, 5);
+                //Send image
+                sendImage("final", chatId);
+
+                //Send message
+                SendMessage message = createMessage("*Джавелін твій. Повний вперед!*");
+
+                message.setChatId(chatId);
+
+                sendApiMethodAsync(message);
+            }
         }
     }
 

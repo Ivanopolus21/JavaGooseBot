@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e02b73-3d5d-4e83-837e-e5bfea837ccf" name="Changes" comment="Added two more levels and some text">
+    <list default="true" id="82e02b73-3d5d-4e83-837e-e5bfea837ccf" name="Changes" comment="Added the fourth level">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -72,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680107589412</updated>
-      <workItem from="1680107590795" duration="13351000" />
+      <workItem from="1680107590795" duration="14287000" />
     </task>
     <task id="LOCAL-00001" summary="First version of the bot with one GIF">
       <created>1680110663209</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680118436758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added the fourth level">
+      <created>1680122842036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680122842036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First version of the bot with one GIF" />
     <MESSAGE value="Added two more levels and some text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two more levels and some text" />
+    <MESSAGE value="Added the fourth level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the fourth level" />
   </component>
 </project>
